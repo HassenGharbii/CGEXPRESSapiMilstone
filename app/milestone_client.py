@@ -219,6 +219,14 @@ def sync_events_backfill(db):
     return count
 
 
+def sync_alarms_only():
+    db = SessionLocal()
+    try:
+        return sync_alarms(db)
+    finally:
+        db.close()
+
+
 def sync_reference_data():
     db = SessionLocal()
     try:

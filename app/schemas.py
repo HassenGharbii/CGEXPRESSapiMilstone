@@ -43,6 +43,22 @@ class AlarmOut(BaseModel):
     model_config = {"from_attributes": True}
 
 
+class AlarmWithCameraOut(BaseModel):
+    id: str
+    local_id: Optional[int] = None
+    name: Optional[str] = None
+    message: Optional[str] = None
+    source: Optional[str] = None
+    camera_id: Optional[str] = None
+    camera_name: Optional[str] = None
+    priority_name: Optional[str] = None
+    state_name: Optional[str] = None
+    occurred_at: Optional[datetime] = None
+    last_updated: Optional[datetime] = None
+
+    model_config = {"from_attributes": True}
+
+
 class SimpleResourceOut(BaseModel):
     id: str
     name: Optional[str] = None

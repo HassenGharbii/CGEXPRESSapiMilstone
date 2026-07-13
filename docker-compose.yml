@@ -30,6 +30,7 @@ services:
       - EVENT_TYPE_FILTER=*
       - EVENT_SOURCE_FILTER=*
       - SYNC_INTERVAL_SECONDS=300
+      - ALARM_SYNC_INTERVAL_SECONDS=15
       - DATABASE_URL=postgresql+psycopg2://milestone:milestone@db:6623/milestone
     ports:
       - "8000:8000"

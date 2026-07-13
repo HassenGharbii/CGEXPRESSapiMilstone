@@ -1,6 +1,7 @@
 import asyncio
 import json
 import logging
+import re
 import threading
 from contextlib import asynccontextmanager
 from typing import List, Optional
@@ -17,6 +18,8 @@ from app.realtime import broadcaster
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("app")
+
+CAMERA_SOURCE_RE = re.compile(r"^cameras/(.+)$")
 
 
 @asynccontextmanager
@@ -42,12 +45,25 @@ async def lifespan(app: FastAPI):
     sync_thread = threading.Thread(target=_periodic_sync, daemon=True)
     sync_thread.start()
 
+    stop_alarm_sync = threading.Event()
+
+    def _periodic_alarm_sync():
+        while not stop_alarm_sync.wait(config.ALARM_SYNC_INTERVAL_SECONDS):
+            try:
+                milestone_client.sync_alarms_only()
+            except Exception:
+                logger.exception("Periodic alarm sync failed")
+
+    alarm_sync_thread = threading.Thread(target=_periodic_alarm_sync, daemon=True)
+    alarm_sync_thread.start()
+
     if config.ENABLE_WEBSOCKET:
         milestone_client.listener.start()
 
     yield
 
     stop_sync.set()
+    stop_alarm_sync.set()
     milestone_client.listener.stop()
 
 
@@ -133,6 +149,53 @@ def list_alarms(state: Optional[str] = None, db: Session = Depends(get_db)):
     if state:
         query = query.filter(Alarm.state_name == state)
     return query.order_by(desc(Alarm.occurred_at)).all()
+
+
+@app.get("/alarms/camera", response_model=List[schemas.AlarmWithCameraOut], tags=["alarms"])
+def list_alarms_with_camera(state: Optional[str] = None, db: Session = Depends(get_db)):
+    """Alarms as stored, with the camera behind `source: cameras/{id}` resolved to its name."""
+    query = db.query(Alarm)
+    if state:
+        query = query.filter(Alarm.state_name == state)
+    alarms = query.order_by(desc(Alarm.occurred_at)).all()
+
+    camera_ids = set()
+    for alarm in alarms:
+        match = CAMERA_SOURCE_RE.match(alarm.source) if alarm.source else None
+        if match:
+            camera_ids.add(match.group(1))
+
+    cameras_by_id = {}
+    if camera_ids:
+        for camera in db.query(Camera).filter(Camera.id.in_(camera_ids)).all():
+            cameras_by_id[camera.id] = camera
+
+    results = []
+    for alarm in alarms:
+        camera_id = None
+        camera_name = None
+        source_label = alarm.source
+        match = CAMERA_SOURCE_RE.match(alarm.source) if alarm.source else None
+        if match:
+            camera_id = match.group(1)
+            camera = cameras_by_id.get(camera_id)
+            if camera:
+                camera_name = camera.display_name or camera.name
+                source_label = f"{alarm.source} ({camera_name})"
+        results.append(schemas.AlarmWithCameraOut(
+            id=alarm.id,
+            local_id=alarm.local_id,
+            name=alarm.name,
+            message=alarm.message,
+            source=source_label,
+            camera_id=camera_id,
+            camera_name=camera_name,
+            priority_name=alarm.priority_name,
+            state_name=alarm.state_name,
+            occurred_at=alarm.occurred_at,
+            last_updated=alarm.last_updated,
+        ))
+    return results
 
 
 @app.get("/cameras", response_model=List[schemas.SimpleResourceOut], tags=["configuration"])
