@@ -13724,7 +13724,7 @@
     },
     {
         "displayName": "Global Change Rising",
-        "id": "afedfc73-027a-49f6-b1d3-855432656b46",
+        "id": "afedfc73-027a-49f6-b1d3-856623656b46",
         "name": "6-17-1537-Global Change-0",
         "lastModified": "2023-06-09T08:33:46.5430000Z",
         "description": "",
@@ -13736,7 +13736,7 @@
         "generatorGroupId": "",
         "occursGlobally": false,
         "builtIn": false,
-        "counterEventID": "afedfc73-027a-49f6-b1d3-855432656b46",
+        "counterEventID": "afedfc73-027a-49f6-b1d3-856623656b46",
         "sourceArray": [
             "Camera",
             "CameraGroup"
@@ -13754,7 +13754,7 @@
             },
             "self": {
                 "type": "eventTypes",
-                "id": "afedfc73-027a-49f6-b1d3-855432656b46"
+                "id": "afedfc73-027a-49f6-b1d3-856623656b46"
             }
         },
         "hardwareName": "Not Available, Not Available"

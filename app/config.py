@@ -21,5 +21,5 @@ SYNC_INTERVAL_SECONDS = int(os.getenv("SYNC_INTERVAL_SECONDS", "300"))
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql+psycopg2://milestone:milestone@db:5432/milestone",
+    "postgresql+psycopg2://milestone:milestone@db:6623/milestone",
 )
