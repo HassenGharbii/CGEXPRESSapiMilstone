@@ -1,0 +1,13 @@
+{
+    "ProductVersion": "23.3.58.1",
+    "UnsecureManagementServer": "http://srv-milestone.ad.axone/",
+    "SecureManagementServer": "https://srv-milestone.ad.axone/",
+    "IdentityProvider": "http://srv-milestone.ad.axone/IDP",
+    "ApiGateways": [
+        "http://srv-milestone.ad.axone.com/API/",
+        "http://srv-milestone.ad.axone/API/",
+        "http://srv-milestone.ad.axone.com/API/",
+        "http://srv-milestone.ad.axone/API/",
+        "http://192.168.20.1/API/"
+    ]
+}

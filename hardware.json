@@ -1,0 +1,446 @@
+{
+    "array": [
+        {
+            "displayName": "FD836BA (192.168.20.112)",
+            "enabled": true,
+            "id": "285ff8d3-1a24-4d70-af4d-a8c55b427bfc",
+            "name": "FD836BA (192.168.20.112)",
+            "description": "",
+            "address": "http://192.168.20.112/",
+            "userName": "root",
+            "model": "VIVOTEK FD836BA-HTV",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:47.3630000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "285ff8d3-1a24-4d70-af4d-a8c55b427bfc"
+                }
+            }
+        },
+        {
+            "displayName": "FD836B (192.168.20.107)",
+            "enabled": true,
+            "id": "2d92c667-6cbd-43d0-9ba6-d1da411c80da",
+            "name": "FD836B (192.168.20.107)",
+            "description": "",
+            "address": "http://192.168.20.107/",
+            "userName": "root",
+            "model": "VIVOTEK FD836B-HTV",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:49.2830000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "2d92c667-6cbd-43d0-9ba6-d1da411c80da"
+                }
+            }
+        },
+        {
+            "displayName": "FD9367 (192.168.20.118)",
+            "enabled": true,
+            "id": "425ccac2-6114-486f-8078-d52187e55e9c",
+            "name": "FD9367 (192.168.20.118)",
+            "description": "",
+            "address": "http://192.168.20.118/",
+            "userName": "root",
+            "model": "VIVOTEK FD9367-HTV",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:44.1270000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "425ccac2-6114-486f-8078-d52187e55e9c"
+                }
+            }
+        },
+        {
+            "displayName": "FD9371 (192.168.20.102)",
+            "enabled": true,
+            "id": "54fa3c64-ab8d-4455-aa08-35ba6b552228",
+            "name": "FD9371 (192.168.20.102)",
+            "description": "",
+            "address": "http://192.168.20.102/",
+            "userName": "root",
+            "model": "VIVOTEK FD9371-HTV",
+            "passwordLastModified": "2024-10-25T12:29:00.9170000Z",
+            "lastModified": "2024-10-25T12:29:00.9200000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "54fa3c64-ab8d-4455-aa08-35ba6b552228"
+                }
+            }
+        },
+        {
+            "displayName": "FD836B (192.168.20.100)",
+            "enabled": true,
+            "id": "5d2f4869-bac0-4e22-b59b-18b31743dc58",
+            "name": "FD836B (192.168.20.100)",
+            "description": "",
+            "address": "http://192.168.20.100/",
+            "userName": "root",
+            "model": "Vivotek No PTZ",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:35.0330000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "0ddd781c-4f9d-43af-8ed6-387fde510c79"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "5d2f4869-bac0-4e22-b59b-18b31743dc58"
+                }
+            }
+        },
+        {
+            "displayName": "FE9182(192.168.20.115)",
+            "enabled": true,
+            "id": "990214fd-74e5-4d09-959e-6982458b8771",
+            "name": "FE9182(192.168.20.115)",
+            "description": "",
+            "address": "http://192.168.20.115/",
+            "userName": "root",
+            "model": "VIVOTEK FE9182-H",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-23T16:08:36.0170000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "990214fd-74e5-4d09-959e-6982458b8771"
+                }
+            }
+        },
+        {
+            "displayName": "Adam 60xx DIO module (192.168.20.140)",
+            "enabled": true,
+            "id": "b0723044-700d-40db-b9af-e5844728d866",
+            "name": "Adam 60xx DIO module (192.168.20.140)",
+            "description": "",
+            "address": "http://192.168.20.140/",
+            "userName": "root",
+            "model": "AdamIO",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-11-06T10:41:20.5800000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "18357334-1876-4f43-8091-d8cac4dc2289"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "b0723044-700d-40db-b9af-e5844728d866"
+                }
+            }
+        },
+        {
+            "displayName": "FLEXIDOME outdoor 5100i IR (192.168.20.40)",
+            "enabled": true,
+            "id": "b90feaad-b974-4059-b724-8ecbb88f83f3",
+            "name": "FLEXIDOME outdoor 5100i IR (192.168.20.40)",
+            "description": "",
+            "address": "http://192.168.20.40/",
+            "userName": "service",
+            "model": "FLEXIDOME outdoor 5100i IR",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:36.6900000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "9f1980a8-45d9-4268-aaad-bc36750e612e"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "b90feaad-b974-4059-b724-8ecbb88f83f3"
+                }
+            }
+        },
+        {
+            "displayName": "VIVOTEK SC8131 (192.168.20.113)",
+            "enabled": true,
+            "id": "bdf5427c-9916-4ac6-99bd-059e8d6c92e3",
+            "name": "VIVOTEK SC8131 (192.168.20.113)",
+            "description": "",
+            "address": "http://192.168.20.113/",
+            "userName": "root",
+            "model": "VIVOTEK SC8131",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2025-06-25T10:46:00.2570000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "bdf5427c-9916-4ac6-99bd-059e8d6c92e3"
+                }
+            }
+        },
+        {
+            "displayName": "FD836BA (192.168.20.103)",
+            "enabled": true,
+            "id": "c3ff4a37-400d-48a6-8ddd-23d088b60e08",
+            "name": "FD836BA (192.168.20.103)",
+            "description": "",
+            "address": "http://192.168.20.103/",
+            "userName": "root",
+            "model": "VIVOTEK FD836BA-HTV",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:43.4730000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "c3ff4a37-400d-48a6-8ddd-23d088b60e08"
+                }
+            }
+        },
+        {
+            "displayName": "VIVOTEK SC8131 (192.168.20.114)",
+            "enabled": true,
+            "id": "d22b34ab-b318-4442-b4d8-09fc0613ad9e",
+            "name": "VIVOTEK SC8131 (192.168.20.114)",
+            "description": "",
+            "address": "http://192.168.20.114/",
+            "userName": "root",
+            "model": "VIVOTEK SC8131",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2023-03-27T13:04:21.9000000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "d22b34ab-b318-4442-b4d8-09fc0613ad9e"
+                }
+            }
+        },
+        {
+            "displayName": "BX520-HD (192.168.20.117)",
+            "enabled": true,
+            "id": "d731a8d7-03d3-40e0-a638-a0d54aa8077d",
+            "name": "BX520-HD (192.168.20.117)",
+            "description": "",
+            "address": "http://192.168.20.117/",
+            "userName": "root",
+            "model": "IndigoVision BX520-HD",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-11-06T11:04:29.3670000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "d731a8d7-03d3-40e0-a638-a0d54aa8077d"
+                }
+            }
+        },
+        {
+            "displayName": "PNM-7002VD (192.168.20.104)",
+            "enabled": true,
+            "id": "dac66a41-215a-4574-92c3-00acd9425d58",
+            "name": "PNM-7002VD (192.168.20.104)",
+            "description": "",
+            "address": "http://192.168.20.104/",
+            "userName": "admin",
+            "model": "Hanwha Vision PNM-7002VD",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2025-01-06T16:09:26.0470000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "1cb1e95e-5b91-4207-93c6-0a9744941ebb"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "dac66a41-215a-4574-92c3-00acd9425d58"
+                }
+            }
+        },
+        {
+            "displayName": "AXIS Q1951-E Thermal Camera (192.168.10.15)",
+            "enabled": true,
+            "id": "db2dcb2f-0c84-4b1c-b9e6-6d4ce79d5305",
+            "name": "AXIS Q1951-E Thermal Camera (192.168.10.15)",
+            "description": "",
+            "address": "http://192.168.10.15/",
+            "userName": "root",
+            "model": "AXIS Q1951-E Thermal Camera",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-12T13:01:34.5600000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "316f4995-decd-4fa9-9877-0833b369c053"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "db2dcb2f-0c84-4b1c-b9e6-6d4ce79d5305"
+                }
+            }
+        },
+        {
+            "displayName": "Cam_ther (192.168.30.253)",
+            "enabled": true,
+            "id": "e03d67d4-ded7-4211-a070-137423a1df72",
+            "name": "Cam_ther (192.168.30.253)",
+            "description": "",
+            "address": "http://192.168.30.253/",
+            "userName": "root",
+            "model": "AXIS Q1942-E Thermal Network Camera",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2023-05-10T10:44:20.3270000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "316f4995-decd-4fa9-9877-0833b369c053"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "e03d67d4-ded7-4211-a070-137423a1df72"
+                }
+            }
+        },
+        {
+            "displayName": "FD836BA (192.168.20.108)",
+            "enabled": true,
+            "id": "f65250c4-58c8-45ac-9f85-a3ce2cfafe3b",
+            "name": "FD836BA (192.168.20.108)",
+            "description": "",
+            "address": "http://192.168.20.108/",
+            "userName": "root",
+            "model": "VIVOTEK FD836BA-HTV",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:43.4730000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "131480b9-2537-4f2c-a6d5-dd318b72264b"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "f65250c4-58c8-45ac-9f85-a3ce2cfafe3b"
+                }
+            }
+        },
+        {
+            "displayName": "Vivotek (192.168.10.14)",
+            "enabled": true,
+            "id": "fa1af57b-1a79-4da1-9ffe-1e8d50b23663",
+            "name": "Vivotek (192.168.10.14)",
+            "description": "",
+            "address": "http://192.168.10.14/",
+            "userName": "root",
+            "model": "Vivotek No PTZ",
+            "passwordLastModified": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-05T15:53:29.3700000Z",
+            "hardwareDriverPath": {
+                "type": "hardwareDrivers",
+                "id": "0ddd781c-4f9d-43af-8ed6-387fde510c79"
+            },
+            "relations": {
+                "parent": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                },
+                "self": {
+                    "type": "hardware",
+                    "id": "fa1af57b-1a79-4da1-9ffe-1e8d50b23663"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,537 @@
+{
+    "array": [
+        {
+            "displayName": "BX520-HD | Showroom",
+            "enabled": true,
+            "id": "19bab11f-b0f3-47fb-b6f4-891de3ebe953",
+            "name": "BX520-HD | Showroom",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-04-26T09:39:07.8700000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "d731a8d7-03d3-40e0-a638-a0d54aa8077d"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "19bab11f-b0f3-47fb-b6f4-891de3ebe953"
+                }
+            }
+        },
+        {
+            "displayName": "FD836B | Corridor01",
+            "enabled": true,
+            "id": "c73c9d56-f5aa-453f-824b-012932021682",
+            "name": "FD836B | Corridor01",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:49.2830000Z",
+            "gisPoint": "POINT (8.93710755874507 49.4554341937523)",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "20",
+            "coverageFieldOfView": "0.2",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "2d92c667-6cbd-43d0-9ba6-d1da411c80da"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "c73c9d56-f5aa-453f-824b-012932021682"
+                }
+            }
+        },
+        {
+            "displayName": "FD836B | Technical01",
+            "enabled": true,
+            "id": "17cf7962-64d6-4c82-a590-469c1b02d3b1",
+            "name": "FD836B | Technical01",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2025-05-22T08:54:58.3230000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "5d2f4869-bac0-4e22-b59b-18b31743dc58"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "17cf7962-64d6-4c82-a590-469c1b02d3b1"
+                }
+            }
+        },
+        {
+            "displayName": "FD836BA | Corridor02",
+            "enabled": true,
+            "id": "8b887f7c-1da0-4a4c-979b-6d62cb1fce91",
+            "name": "FD836BA | Corridor02",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:43.4730000Z",
+            "gisPoint": "POINT (9.04257604057265 47.4980753878951)",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "20",
+            "coverageFieldOfView": "0.2",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "c3ff4a37-400d-48a6-8ddd-23d088b60e08"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "8b887f7c-1da0-4a4c-979b-6d62cb1fce91"
+                }
+            }
+        },
+        {
+            "displayName": "FD836BA | Corridor03",
+            "enabled": true,
+            "id": "d11f12d7-90f5-4907-804a-aa7407b5b98f",
+            "name": "FD836BA | Corridor03",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:43.4730000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "f65250c4-58c8-45ac-9f85-a3ce2cfafe3b"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "d11f12d7-90f5-4907-804a-aa7407b5b98f"
+                }
+            }
+        },
+        {
+            "displayName": "FD836BA | Corridor04",
+            "enabled": true,
+            "id": "9cbc9fba-1a4a-4c89-8b1a-5b952a654952",
+            "name": "FD836BA | Corridor04",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:47.3630000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "285ff8d3-1a24-4d70-af4d-a8c55b427bfc"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "9cbc9fba-1a4a-4c89-8b1a-5b952a654952"
+                }
+            }
+        },
+        {
+            "displayName": "FD9367 | Rest",
+            "enabled": true,
+            "id": "9ff34f60-bfd2-4597-9d1d-43efb74ebe05",
+            "name": "FD9367 | Rest",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:44.1270000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "425ccac2-6114-486f-8078-d52187e55e9c"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "9ff34f60-bfd2-4597-9d1d-43efb74ebe05"
+                }
+            }
+        },
+        {
+            "displayName": "FD9371 | Corridor05",
+            "enabled": true,
+            "id": "1a742193-c9b8-46f8-a46b-cddb4b2d44fa",
+            "name": "FD9371 | Corridor05",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:49.4570000Z",
+            "gisPoint": "POINT (4.99960728871419 51.6004333634493)",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "20",
+            "coverageFieldOfView": "0.2",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "54fa3c64-ab8d-4455-aa08-35ba6b552228"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "1a742193-c9b8-46f8-a46b-cddb4b2d44fa"
+                }
+            }
+        },
+        {
+            "displayName": "FLEXIDOME outdoor 5100i IR (192.168.20.40) - Cam\u00e9ra 1",
+            "enabled": true,
+            "id": "36a0d4d2-4986-4b18-81a2-6fff7b3817c7",
+            "name": "FLEXIDOME outdoor 5100i IR (192.168.20.40) - Cam\u00e9ra 1",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-02-16T15:19:36.6900000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "b90feaad-b974-4059-b724-8ecbb88f83f3"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "36a0d4d2-4986-4b18-81a2-6fff7b3817c7"
+                }
+            }
+        },
+        {
+            "displayName": "PNM-7002VD | Delivery01",
+            "enabled": true,
+            "id": "8eb715a6-0f81-4b1b-b88a-9e194e200d75",
+            "name": "PNM-7002VD | Delivery01",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2025-01-06T16:11:20.8170000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "dac66a41-215a-4574-92c3-00acd9425d58"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "8eb715a6-0f81-4b1b-b88a-9e194e200d75"
+                }
+            }
+        },
+        {
+            "displayName": "PNM-7002VD | Delivery02",
+            "enabled": true,
+            "id": "8df48c14-1e7c-451e-845a-57a3e8ff19ab",
+            "name": "PNM-7002VD | Delivery02",
+            "channel": 1,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2025-01-06T16:09:26.0470000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "dac66a41-215a-4574-92c3-00acd9425d58"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "8df48c14-1e7c-451e-845a-57a3e8ff19ab"
+                }
+            }
+        },
+        {
+            "displayName": "VIVOTEK SC8131 | Delivery03",
+            "enabled": true,
+            "id": "e7f41d2c-26c3-495a-9b40-2a5e4f09499d",
+            "name": "VIVOTEK SC8131 | Delivery03",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2024-03-28T12:01:22.7970000Z",
+            "gisPoint": "POINT (2.215331 48.892423)",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "-0.770638888888889",
+            "coverageDepth": "136162.07",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "bdf5427c-9916-4ac6-99bd-059e8d6c92e3"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "e7f41d2c-26c3-495a-9b40-2a5e4f09499d"
+                }
+            }
+        },
+        {
+            "displayName": "VIVOTEK SC8131 | Delivery04",
+            "enabled": true,
+            "id": "faf5feb6-ed72-484e-b8cf-f23bdaf4d25b",
+            "name": "VIVOTEK SC8131 | Delivery04",
+            "channel": 0,
+            "description": "",
+            "createdDate": "0001-01-01T00:00:00.0000000",
+            "lastModified": "2023-03-27T13:04:21.9000000Z",
+            "gisPoint": "POINT EMPTY",
+            "shortName": "",
+            "icon": 0,
+            "coverageDirection": "0",
+            "coverageDepth": "0",
+            "coverageFieldOfView": "0",
+            "recordingFramerate": "5",
+            "recordKeyframesOnly": false,
+            "recordOnRelatedDevices": true,
+            "recordingEnabled": true,
+            "prebufferEnabled": true,
+            "prebufferInMemory": true,
+            "prebufferSeconds": 3,
+            "edgeStorageEnabled": false,
+            "edgeStoragePlaybackEnabled": false,
+            "manualRecordingTimeoutEnabled": true,
+            "manualRecordingTimeoutMinutes": 5,
+            "recordingStorage": {
+                "type": "storages",
+                "id": "7b95a077-cad3-4eaa-a79c-19177fb47425"
+            },
+            "relations": {
+                "parent": {
+                    "type": "hardware",
+                    "id": "d22b34ab-b318-4442-b4d8-09fc0613ad9e"
+                },
+                "self": {
+                    "type": "cameras",
+                    "id": "faf5feb6-ed72-484e-b8cf-f23bdaf4d25b"
+                }
+            }
+        }
+    ]
+}

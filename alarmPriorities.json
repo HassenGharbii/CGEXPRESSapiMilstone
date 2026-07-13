@@ -1,0 +1,32 @@
+{
+    "array": [
+        {
+            "soundNotificationsOnLoop": false,
+            "desktopNotificationsEnabled": false,
+            "soundId": "35f31ee4-b145-40c9-8df4-e094502bda36",
+            "id": "34f1f987-6854-44fb-88a5-daa0add1e38a",
+            "level": 3,
+            "name": "Low"
+        },
+        {
+            "soundNotificationsOnLoop": false,
+            "desktopNotificationsEnabled": false,
+            "soundId": "10037f60-987d-4632-a70a-867dd78d060c",
+            "id": "8188ff24-b5da-4c19-9ebf-c1d8fc2caa75",
+            "level": 1,
+            "name": "High"
+        },
+        {
+            "soundNotificationsOnLoop": false,
+            "desktopNotificationsEnabled": false,
+            "soundId": "7369ec94-aebd-461c-98c7-f316875b4b46",
+            "id": "9ad9338b-22ba-4f2e-bf62-e6948ae99bbf",
+            "level": 2,
+            "name": "Medium"
+        }
+    ],
+    "_links": {
+        "prev": null,
+        "next": null
+    }
+}

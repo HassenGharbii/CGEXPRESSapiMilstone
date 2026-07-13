@@ -1,0 +1,28 @@
+{
+    "array": [
+        {
+            "id": "60ab3977-090a-4381-a644-8bb51af2fdaa",
+            "level": 1,
+            "name": "New"
+        },
+        {
+            "id": "a6b840a5-b48a-49cf-a83c-b2a0b010beed",
+            "level": 9,
+            "name": "On hold"
+        },
+        {
+            "id": "d9d8e200-b335-476b-bd8b-b85b8efc41b6",
+            "level": 4,
+            "name": "In progress"
+        },
+        {
+            "id": "e9deec24-e845-4946-aea2-c7c43d916d40",
+            "level": 11,
+            "name": "Closed"
+        }
+    ],
+    "_links": {
+        "prev": null,
+        "next": null
+    }
+}

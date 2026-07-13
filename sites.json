@@ -1,0 +1,28 @@
+{
+    "array": [
+        {
+            "displayName": "SRV-MILESTONE",
+            "id": "f3585e51-b44d-41a7-be64-681554252983",
+            "name": "SRV-MILESTONE",
+            "description": "",
+            "lastModified": "2025-09-25T19:44:41.5930000Z",
+            "timeZone": "Romance Standard Time",
+            "computerName": "SRV-MILESTONE",
+            "domainName": "AD.axone",
+            "lastStatusHandshake": "2025-09-25T19:44:41.5930000Z",
+            "physicalMemory": 0,
+            "platform": "[Not Available]",
+            "processors": 0,
+            "serviceAccount": "S-1-5-20",
+            "synchronizationStatus": 0,
+            "masterSiteAddress": "",
+            "version": "23.3.0.1",
+            "relations": {
+                "self": {
+                    "type": "sites",
+                    "id": "f3585e51-b44d-41a7-be64-681554252983"
+                }
+            }
+        }
+    ]
+}

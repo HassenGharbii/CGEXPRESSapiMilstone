@@ -1,0 +1,33 @@
+{
+    "array": [
+        {
+            "displayName": "SRV-MILESTONE",
+            "enabled": true,
+            "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1",
+            "name": "SRV-MILESTONE",
+            "description": "",
+            "lastModified": "2025-09-09T12:46:00.2800000Z",
+            "synchronizationTime": -1,
+            "timeZoneName": "Romance Standard Time",
+            "hostName": "192.168.20.1",
+            "portNumber": 7563,
+            "webServerUri": "http://192.168.20.1:7563/",
+            "activeWebServerUri": "",
+            "publicAccessEnabled": false,
+            "publicWebserverHostName": "",
+            "publicWebserverPort": 0,
+            "multicastServerAddress": "0.0.0.0",
+            "shutdownOnStorageFailure": false,
+            "relations": {
+                "parent": {
+                    "type": "sites",
+                    "id": "f3585e51-b44d-41a7-be64-681554252983"
+                },
+                "self": {
+                    "type": "recordingServers",
+                    "id": "27ed6e15-babf-4c4f-a86e-cf3d2a188ec1"
+                }
+            }
+        }
+    ]
+}
