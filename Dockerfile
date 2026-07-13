@@ -5,16 +5,16 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY main.py .
-
-RUN mkdir -p /app/data
+COPY app ./app
 
 ENV API_USERNAME=axone
 ENV API_PASSWORD=Ax0nesys!
 ENV SERVER_URL=http://192.168.20.1
 ENV VERIFY_CERTIFICATES=True
-ENV RECORDING_SERVER_ID=27ed6e15-babf-4c4f-a86e-cf3d2a188ec1
-ENV DATA_DIR=/app/data
-ENV ENABLE_WEBSOCKET=false
+ENV ENABLE_WEBSOCKET=true
+ENV SYNC_INTERVAL_SECONDS=300
+ENV DATABASE_URL=postgresql+psycopg2://milestone:milestone@db:5432/milestone
 
-CMD ["python", "main.py"]
+EXPOSE 8000
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
