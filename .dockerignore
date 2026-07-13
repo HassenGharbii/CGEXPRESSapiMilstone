@@ -1,0 +1,8 @@
+.git
+.vscode
+__pycache__
+*.pyc
+*.ipynb
+*.json
+access_token.txt
+data/

@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  cgexpress-api:
+    build: .
+    container_name: cgexpress-api
+    environment:
+      - API_USERNAME=axone
+      - API_PASSWORD=Ax0nesys!
+      - SERVER_URL=http://192.168.20.1
+      - VERIFY_CERTIFICATES=True
+      - RECORDING_SERVER_ID=27ed6e15-babf-4c4f-a86e-cf3d2a188ec1
+      - DATA_DIR=/app/data
+      - ENABLE_WEBSOCKET=false
+    volumes:
+      - ./data:/app/data
+      - ./access_token.txt:/app/access_token.txt
+    restart: unless-stopped
