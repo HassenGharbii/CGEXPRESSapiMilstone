@@ -128,11 +128,13 @@ def sync_event_types(db):
 def sync_cameras(db):
     count = 0
     for item in _get("/api/rest/v1/cameras"):
+        hardware_id = (item.get("relations") or {}).get("parent", {}).get("id")
         db.merge(Camera(
             id=item["id"],
             name=item.get("name"),
             display_name=item.get("displayName"),
             enabled=item.get("enabled"),
+            hardware_id=hardware_id,
             raw=item,
             synced_at=datetime.now(timezone.utc),
         ))
@@ -148,6 +150,7 @@ def sync_hardware(db):
             id=item["id"],
             name=item.get("name"),
             display_name=item.get("displayName"),
+            address=item.get("address"),
             raw=item,
             synced_at=datetime.now(timezone.utc),
         ))

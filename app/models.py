@@ -59,6 +59,7 @@ class Camera(Base):
     name = Column(String)
     display_name = Column(String)
     enabled = Column(Boolean)
+    hardware_id = Column(String, index=True)
     raw = Column(JSONB)
     synced_at = Column(DateTime(timezone=True))
 
@@ -69,6 +70,7 @@ class Hardware(Base):
     id = Column(String, primary_key=True)
     name = Column(String)
     display_name = Column(String)
+    address = Column(String)
     raw = Column(JSONB)
     synced_at = Column(DateTime(timezone=True))
 

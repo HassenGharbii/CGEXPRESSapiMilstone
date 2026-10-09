@@ -7,7 +7,7 @@ def _bool(name, default):
 
 API_USERNAME = os.getenv("API_USERNAME", "axone")
 API_PASSWORD = os.getenv("API_PASSWORD", "Ax0nesys!")
-SERVER_URL = os.getenv("SERVER_URL", "http://192.168.20.1").rstrip("/")
+SERVER_URL = os.getenv("SERVER_URL", "http://192.168.254.196").rstrip("/")
 VERIFY_CERTIFICATES = _bool("VERIFY_CERTIFICATES", True)
 
 EVENT_TYPE_FILTER = os.getenv("EVENT_TYPE_FILTER", "*")
@@ -24,3 +24,9 @@ DATABASE_URL = os.getenv(
     "DATABASE_URL",
     "postgresql+psycopg2://milestone:milestone@db:6623/milestone",
 )
+
+CORS_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv("CORS_ORIGINS", "*").split(",")
+    if origin.strip()
+]

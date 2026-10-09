@@ -51,6 +51,7 @@ class AlarmWithCameraOut(BaseModel):
     source: Optional[str] = None
     camera_id: Optional[str] = None
     camera_name: Optional[str] = None
+    camera_ip: Optional[str] = None
     priority_name: Optional[str] = None
     state_name: Optional[str] = None
     occurred_at: Optional[datetime] = None

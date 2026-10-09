@@ -24,7 +24,7 @@ services:
     environment:
       - API_USERNAME=axone
       - API_PASSWORD=Ax0nesys!
-      - SERVER_URL=http://192.168.20.1
+      - SERVER_URL=http://192.168.254.196
       - VERIFY_CERTIFICATES=True
       - ENABLE_WEBSOCKET=true
       - EVENT_TYPE_FILTER=*
@@ -32,6 +32,7 @@ services:
       - SYNC_INTERVAL_SECONDS=300
       - ALARM_SYNC_INTERVAL_SECONDS=15
       - DATABASE_URL=postgresql+psycopg2://milestone:milestone@db:6623/milestone
+      - CORS_ORIGINS=http://localhost:5174
     ports:
       - "8000:8000"
     depends_on:

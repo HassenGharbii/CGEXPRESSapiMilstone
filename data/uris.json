@@ -8,6 +8,6 @@
         "http://srv-milestone.ad.axone/API/",
         "http://srv-milestone.ad.axone.com/API/",
         "http://srv-milestone.ad.axone/API/",
-        "http://192.168.20.1/API/"
+        "http://192.168.254.196/API/"
     ]
 }

@@ -7,6 +7,7 @@ from contextlib import asynccontextmanager
 from typing import List, Optional
 
 from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse, StreamingResponse
 from sqlalchemy import desc
 from sqlalchemy.orm import Session
@@ -20,6 +21,13 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("app")
 
 CAMERA_SOURCE_RE = re.compile(r"^cameras/(.+)$")
+HARDWARE_ADDRESS_RE = re.compile(r"^[a-zA-Z][a-zA-Z0-9+.-]*://([^/:]+)")
+
+
+def _extract_ip(address: str) -> Optional[str]:
+    """Pull the host/IP out of a hardware address like 'http://192.168.1.10/'."""
+    match = HARDWARE_ADDRESS_RE.match(address)
+    return match.group(1) if match else address
 
 
 @asynccontextmanager
@@ -77,6 +85,14 @@ app = FastAPI(
     ),
     version="1.0.0",
     lifespan=lifespan,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=config.CORS_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -170,10 +186,17 @@ def list_alarms_with_camera(state: Optional[str] = None, db: Session = Depends(g
         for camera in db.query(Camera).filter(Camera.id.in_(camera_ids)).all():
             cameras_by_id[camera.id] = camera
 
+    hardware_ids = {c.hardware_id for c in cameras_by_id.values() if c.hardware_id}
+    hardware_by_id = {}
+    if hardware_ids:
+        for hardware in db.query(Hardware).filter(Hardware.id.in_(hardware_ids)).all():
+            hardware_by_id[hardware.id] = hardware
+
     results = []
     for alarm in alarms:
         camera_id = None
         camera_name = None
+        camera_ip = None
         source_label = alarm.source
         match = CAMERA_SOURCE_RE.match(alarm.source) if alarm.source else None
         if match:
@@ -182,6 +205,9 @@ def list_alarms_with_camera(state: Optional[str] = None, db: Session = Depends(g
             if camera:
                 camera_name = camera.display_name or camera.name
                 source_label = f"{alarm.source} ({camera_name})"
+                hardware = hardware_by_id.get(camera.hardware_id)
+                if hardware and hardware.address:
+                    camera_ip = _extract_ip(hardware.address)
         results.append(schemas.AlarmWithCameraOut(
             id=alarm.id,
             local_id=alarm.local_id,
@@ -190,6 +216,7 @@ def list_alarms_with_camera(state: Optional[str] = None, db: Session = Depends(g
             source=source_label,
             camera_id=camera_id,
             camera_name=camera_name,
+            camera_ip=camera_ip,
             priority_name=alarm.priority_name,
             state_name=alarm.state_name,
             occurred_at=alarm.occurred_at,
